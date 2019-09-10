@@ -1,6 +1,6 @@
 ##############################################
 MBR-DualBootType-WinPE
-By gzu-liyujiang on 2019.8.22
+By gzu-liyujiang on 2016.8.22
 Last Modified on 2019.9.2
 ##############################################
 利用bootmgr及bootmgfw.efi(即bootx64.efi)实现同时支持Legacy及EFI启动类型的PE系统盘。
@@ -17,14 +17,3 @@ Last Modified on 2019.9.2
 1、开机=>Legacy BIOS=>NT5/6 MBR=>/bootmgr=>/boot/bcd=>/windows/system32/boot/winload.exe=>进入系统
 2、开机=>EFI BIOS=>EFI-ia32=>/efi/boot/bootia32.efi=>/efi/microsoft/bootia32/bcd=>/windows/system32/boot/winload.efi=>进入系统
 3、开机=>EFI BIOS=>EFI-x64=>/efi/boot/bootx64.efi=>/efi/microsoft/boot/bcd=>/windows/system32/boot/winload.efi=>进入系统
-
-Copyright (c) 2019 贵州穿青人李玉江
-MBR-DualBootType-WinPE is licensed under the Mulan PSL v1.
-You can use this software according to the terms and conditions of the Mulan PSL v1.
-You may obtain a copy of Mulan PSL v1 at:
-    http://license.coscl.org.cn/MulanPSL
-THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR
-PURPOSE.
-See the Mulan PSL v1 for more details.
-
